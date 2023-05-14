@@ -11,4 +11,12 @@ router.get('/:id', (req, res) => {
     .catch(error => console.log(error))
 })
 
+router.get('/:id/edit', (req, res) => {
+
+})
+
+router.put('/:id', (req, res) => {
+
+})
+
 module.exports = router
